@@ -136,5 +136,10 @@ ________________________________________________________________________________
                 }
 _____________________________________________________________________________________________
 
-4.	Train de agent door deze commando te runnen in anaconda: mlagents-learn config/CubeAgent.yaml --run-id=CubeAgent --force
-5.	Gebruik Tensorboard om het trainen op te volgen door deze commando te runnen in anaconda: tensorboard --logdir results
+
+## Trainen van de agent:
+	- Train de agent door deze commando te runnen in anaconda: mlagents-learn config/CubeAgent.yaml --run-id=CubeAgent --force
+	- Gebruik Tensorboard om het trainen op te volgen door deze commando te runnen in anaconda: tensorboard --logdir results
+
+## Resultaten
+![Resultaten](./image.png)
